@@ -1,0 +1,140 @@
+    body{
+        background-color: #0480aa;
+        overflow: hidden;
+    }
+    header{
+        display: block;
+        background: #606060;
+        height: 50px;
+        margin-top: -10px;
+        padding: 5px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-bottom: 20px;
+    }
+    header h1{
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    main{
+        position: absolute;
+        text-align: center;
+        top: 90px;
+        left: 500px;
+        margin: auto;
+    }
+    main label{
+        font-family: Arial, sans-serif;
+        color:yellow;
+        text-shadow: 1px 1px 0px black;
+        font-size: 20pt;
+    }
+    main input#button{
+        border:none;
+        background-color: rgb(81, 255, 0);
+        padding: 3px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px black;
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+    }
+    main input#conteiner{
+        height: 25px;
+    }
+    main input#button:active{
+        position: relative;
+        top: 3px;
+    }
+    /* lista dinamica*/
+    .list{
+        position: relative;  
+        top: 40px; 
+        width: 400px;
+        left: -460px;
+    }
+    /* botao de reload*/
+    .buttonOver{
+        border: none;
+        background: #606060;
+        color: white;
+        font-family:Arial, sans-serif;
+        box-shadow: 1px 1px 0px black;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        position: absolute;
+        top: 550px;
+        left: 650px;
+        padding: 5px;
+    }
+
+@media (min-width:375px) and (max-height: 600px){
+    body{
+        background-color: #0480aa;
+        overflow: hidden;
+    }
+    header{
+        display: block;
+        background: #606060;
+        height: 50px;
+        margin-top: -10px;
+        padding: 5px;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-bottom: 20px;
+    }
+    header h1{
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    main{
+        position: relative;
+        text-align: center;
+        top: 40px;
+        left: 10px;
+        margin: auto;
+    }
+    main label{
+        font-family: Arial, sans-serif;
+        color:yellow;
+        text-shadow: 1px 1px 0px black;
+    }
+    main input#button{
+        border:none;
+        background-color: rgb(81, 255, 0);
+        padding: 3px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 0px black;
+        cursor: pointer;
+    }
+    main input#button:active{
+        position: relative;
+        top: 3px;
+    }
+    /* lista dinamica*/
+    .list{
+        position: relative;  
+        top: 5px; 
+        width: 300px;
+    }
+    /* botao de reload*/
+    .buttonOver{
+        border: none;
+        background: #606060;
+        color: white;
+        font-family:Arial, sans-serif;
+        box-shadow: 1px 1px 0px black;
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        position: relative;
+        top: 380px;
+        left: 180px;
+        padding: 5px;
+    }
+}
